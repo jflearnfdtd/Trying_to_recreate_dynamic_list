@@ -1,6 +1,3 @@
-How Camunda8 form-js playground handles dynamic lists. 
-
-
 
 I want to make my own custom element for camunda forms
 
@@ -15,14 +12,21 @@ Their dynamic list can add elements to the list by dragging the element over the
 here you can see the default dynamic list being used. 
 
 
+(see image "handling new elem in dynamic list.png")
+
 
 ive tried to recreate the dynamic list. But I'm not saure how they handle adding new elements to the list. 
 
+
+(see image "my dynamic list.png")
 
 
 How are elements added to a dynamic list? what functions are used or what may i be missing?
 
 I imagine I might need to add stuff to my CustomPropertiesProvider.js but im just not sure what?
 
-Here is my current project in case anyone is capable of helping. 
+go to "Trying_to_recreate_dynamic_list\custom-components" and enter "npm run dev" to start 
+
+my "Trying_to_recreate_dynamic_list\custom-components\app\extension\render\max5dynamiclist.js" file is where i created my own custom dynamic list 
+
 
